@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Shoes.com</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div>
+            <h1>Shoes.com</h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="addListing.html">Add Listing</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div id="listing-container">
+            <div id="listing-image-container" class="listing-div">
+                <h3>Upload images:</h3>
+                <img src="images/upload.png" alt="" class="right-align">
+                <!-- https://www.flaticon.com/ -->
+            </div>
+
+            <div id="listing-price-container" class="listing-div">
+                <h3>Enter Price:</h3>
+                <input type="text" name="listingPrice" placeholder="$" class="right-align" id="listing-price-input">
+            </div>
+
+            <div id="listing-size-container" class="listing-div">
+                <h3>Enter Shoe Size:</h3>
+                <select id="listing-containerSize" name="listingSize" class="right-align">
+                    <option value="size5">5</option>
+                    <option value="size6">6</option>
+                    <option value="size7">7</option>
+                    <option value="size8">8</option>
+                    <option value="size9">9</option>
+                    <option value="size10">10</option>
+                    <option value="size11">11</option>
+                    <option value="size12">12</option>
+                </select>
+            </div>
+
+            <div id="listing-description-container" class="listing-div">
+                <h3>Enter Description:</h3>
+                <input type="text" name="listingDescription" class="right-align" id="listing-description-input">
+            </div>
+
+            <div id="listing-button">
+                <button>Create Listing</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <small>&copy; Copyright 2024, Jack Mahedy</small>
+    </footer>
+
+</body>
+</html>
