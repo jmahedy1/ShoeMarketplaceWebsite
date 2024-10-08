@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Shoes.com</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Shoes.com</h1>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="search.html" class="active">Search</a></li>
+                    <li><a href="addListing.html">Add Listing</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li>
+                        <select id="modeSelect">
+                            <option value="light">Light Mode</option>
+                            <option value="dark">Dark Mode</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <section id="search">
+                <div id="search-bar">
+                    <!-- Search bar -->
+                    <form id="searchFeature">
+                        <input type="text" name="shoeSearch" placeholder="Search...">
+                        <button type="submit">
+                            <img src="data/searchIcon.png" alt="Search icon button">
+                            <!-- https://www.flaticon.com/ -->
+                        </button>
+                    </form>
+        
+                    <!-- Sorting combo box -->
+                    <div id="sort">
+                        <label for="sortBy">Sort By:</label>
+                        <select id="sortBy" name="sortBy">
+                            <option value="priceIncreasing">Price Increasing</option>
+                            <option value="priceDecreasing">Price Decreasing</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Displayed content -->
+                <div id="search-container"></div>
+                
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <small>&copy; Copyright 2024, Jack Mahedy</small>
+        </footer>
+        <script src="scripts/handleData.js"></script>
+        <script src="scripts/search.js"></script>
+        <script src="scripts/darkLight.js"></script>
+    </body>
+</html>

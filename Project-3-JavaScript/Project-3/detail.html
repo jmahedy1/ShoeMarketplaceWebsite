@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Shoes.com</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Shoes.com</h1>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="addListing.html">Add Listing</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li>
+                        <select id="modeSelect">
+                            <option value="light">Light Mode</option>
+                            <option value="dark">Dark Mode</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <section id="detail-container">
+                <div id="detail-left-column">
+                    <img id = "detailShoeImage">
+                </div>
+
+                <div id="detail-right-column">
+                    <H2 id="detailShoeName"></H2>
+                    <p id="detailShoePrice"></p>
+                    <br>
+                    
+                    <label for="sizes"><strong>Size: </strong></label>
+                    <select id="sizes" name="sizes">
+                        <option value="">Select</option>
+                        <option value="Size 5">5</option>
+                        <option value="Size 6">6</option>
+                        <option value="Size 7">7</option>
+                        <option value="Size 8">8</option>
+                        <option value="Size 9">9</option>
+                        <option value="Size 10">10</option>
+                        <option value="Size 11">11</option>
+                        <option value="Size 12">12</option>
+                    </select>
+
+                    <div>
+                        <p>
+                            This shoe puts a fresh spin on what you know best: crisp leather, bold colors and 
+                            the perfect amount of flash to make you shine. A subtle platform gives 
+                            you just the right amount of height.
+                        </p>
+                        <br>
+                        <h3>Benefits</h3>
+                        <ul>
+                            <li>Smooth leather with stitched overlays ages to soft perfection.</li>
+                            <li>Originally designed for hoops, Nike Air cushioning adds lightweight, all-day comfort.</li>
+                            <li>Padded, low-cut collar looks sleek and feels great.</li>
+                        </ul>
+                        <h3>Product Details</h3>
+                        <ul>
+                            <li>Foam midsole</li>
+                            <li>Rubber outsole</li>
+                            <li>Perforations on the toe</li>
+                        </ul>
+                        <h3>Shoe Origin</h3>
+                        <p>
+                            Debuting in 1982, the AF1 was the first basketball shoe to house Nike Air, 
+                            revolutionizing the game while rapidly gaining traction around the world. 
+                            Today, the Air Force 1 stays true to its roots with the same soft and 
+                            springy cushioning that changed sneaker history.
+                        </p>
+                    </div>
+                    <br>
+                    <button id="addCartBtn">Add to Cart</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <small>&copy; Copyright 2024, Jack Mahedy</small>
+        </footer>
+        <script src="scripts/handleData.js"></script>
+        <script src="scripts/detail.js"></script>
+        <script src="scripts/darkLight.js"></script>
+    </body>
+</html>

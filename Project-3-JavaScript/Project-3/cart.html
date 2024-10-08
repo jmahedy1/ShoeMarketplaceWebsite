@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Shoes.com</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Shoes.com</h1>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="addListing.html">Add Listing</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cart.html" class="active">Cart</a></li>
+                    <li>
+                        <select id="modeSelect">
+                            <option value="light">Light Mode</option>
+                            <option value="dark">Dark Mode</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <div>
+                <h2>Cart</h2>
+            </div>
+
+            <div id="cartContainer"></div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <small>&copy; Copyright 2024, Jack Mahedy</small>
+        </footer>
+        <script src="scripts/cart.js"></script>
+        <script src="scripts/darkLight.js"></script>
+    </body>
+</html>

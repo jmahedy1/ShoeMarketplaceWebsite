@@ -1,0 +1,64 @@
+{
+    "data":[
+        {
+            "id": 1,
+            "name": "Nike Airforce 1 '07",
+            "price": 100,
+            "link": "data/detailShoe1.png"
+        },
+        {
+            "id": 2,
+            "name": "Nike Roadrunner Sport",
+            "price": 110,
+            "link": "data/shoe2.png"
+        },
+        {
+            "id": 3,
+            "name": "Nike Jordan 3",
+            "price": 120,
+            "link": "data/shoe3.png"
+        },
+        {
+            "id": 4,
+            "name": "Nike Dunk Lows",
+            "price": 130,
+            "link": "data/shoe4.png"
+        },
+        {
+            "id": 5,
+            "name": "Nike Airforce 1",
+            "price": 140,
+            "link": "data/shoe5.png"
+        },
+        {
+            "id": 6,
+            "name": "K-Swiss Aero Active",
+            "price": 150,
+            "link": "data/shoe6.png"
+        },
+        {
+            "id": 7,
+            "name": "Converse Chunk 70",
+            "price": 160,
+            "link": "data/shoe7.png"
+        },
+        {
+            "id": 8,
+            "name": "Common Projects Retro Suede",
+            "price": 170,
+            "link": "data/shoe8.png"
+        },
+        {
+            "id": 9,
+            "name": "Louis Vuitton Retro Sneakers",
+            "price": 180,
+            "link": "data/shoe9.png"
+        },
+        {
+            "id": 10,
+            "name": "Nike KD 16s",
+            "price": 190,
+            "link": "data/shoe10.png"
+        }
+    ]
+}
